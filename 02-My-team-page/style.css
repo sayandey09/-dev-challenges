@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  max-width: 1100px;
+  margin: 10px auto 0;
+  padding: 10px;
+}
+
+header {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+header h2 {
+  font-weight: bold;
+  font-size: 36px;
+}
+header div {
+  width: 50%;
+}
+
+header div h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+header div p {
+  font-weight: normal;
+}
+
+main {
+  margin: 5rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+
+main > div {
+  width: 300px;
+  height: 400px;
+  position: relative;
+}
+
+main div > p {
+  font-weight: bold;
+}
+
+main > div:nth-of-type(2) {
+  position: relative;
+  top: 8rem;
+}
+
+main > div:nth-of-type(5) {
+  position: relative;
+  top: 12rem;
+}
+
+main > div::before {
+  content: "";
+  position: absolute;
+  top: 65px;
+  font-size: 18px;
+  right: -80px;
+  transform: rotate(90deg);
+  text-transform: uppercase;
+}
+
+main > :nth-child(1)::before {
+  content: "Product owner";
+}
+
+main > :nth-child(2)::before {
+  content: "Art director";
+}
+main > :nth-child(3)::before {
+  content: "Tech Lead";
+}
+
+main > :nth-child(4)::before {
+  content: "UX Designer";
+}
+
+main > :nth-child(5)::before {
+  content: "Developer";
+}
+
+main > :nth-child(6)::before {
+  content: "developer";
+}
+
+main > :nth-child()::before {
+  content: "DEverloper";
+}
+
+footer {
+  margin-top: 15rem;
+}
+footer p {
+  text-align: center;
+  color: #a9a9a9;
+}
+
+@media (max-width: 769px) {
+  .container {
+    padding: 3rem;
+  }
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  header h2 {
+    margin-bottom: 2rem;
+  }
+
+  main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  main > div {
+    width: 200px;
+    height: 300px;
+  }
+
+  main > div:nth-of-type(2),
+  main > div:nth-of-type(5) {
+    position: relative;
+    top: 0rem;
+  }
+  main > div:nth-of-type(2),
+  main > div:nth-of-type(4),
+  main > div:nth-of-type(6) {
+    position: relative;
+    top: 7rem;
+  }
+}
