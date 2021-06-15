@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://devsayan.tech/dev-challenges/02-My-team-page/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/sayandey09/dev-challenges/tree/master/02-My-team-page">
       Solution
     </a>
     <span> | </span>
@@ -36,7 +36,7 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](preview.JPG)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
@@ -67,4 +67,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 - Website [devsayan.tech](https://devsayan.tech/)
 - GitHub [@sayandey09](https://github.com/sayandey09)
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Twitter [@SayanDe80701497](https://twitter.com/SayanDe80701497)
