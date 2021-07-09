@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/6431b42f50.js" crossorigin="anonymous"></script>
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2>Checkout</h2>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="left">
+                <div class="d1">
+                    <p>Contact information</p>
+                    <form action="">
+                        <div class="form-control">
+                            <label for="email">E-email</label>
+                            <i class="far fa-envelope fa-2x"></i>
+                            <input id="email" type="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-control">
+                            <label for="phno">Phone</label>
+                            <i class="fas fa-phone-alt fa-2x"></i>
+                            <input id="phno" type="tel" placeholder="Enter your Phone">
+                        </div>
+                    </form>
+                </div>
+                <div class="d2">
+                    <p>Shipping address</p>
+                    <form action="">
+                        <div class="form-control">
+                            <label for="fullName">Full name</label>
+                            <i class="far fa-user-circle fa-2x"></i>
+                            <input type="text" id="fullName" placeholder="Enter your name">
+                        </div>
+                        <div class="form-control">
+                            <label for="address">Address</label>
+                            <i class="fas fa-home fa-2x"></i>
+                            <input id="address" type="text" placeholder="Your address">
+                        </div>
+
+                        <div class="form-control">
+                            <label for="city">City</label>
+                            <i class="far fa-building fa-2x"></i>
+                            <input id="city" type="text" placeholder="Your city">
+                        </div>
+
+                        <div class="sec100">
+                            <div class="sec50">
+                                <div class="form-control">
+                                    <label for="country">Country</label>
+                                    <i class="fas fa-globe-asia fa-2x"></i>
+                                    <select name="country" id="country">
+                                        <option disabled selected value=" ">Your country...</option>
+                                        <option value="v1">V1</option>
+                                        <option value="v1">V1</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="sec50">
+                                <div class="form-control">
+                                    <label for="postalCode">Postal code</label>
+                                    <i class="fas fa-mail-bulk fa-2x"></i>
+                                    <input type="number" name="postalCode" id="postalCode"
+                                        placeholder="Your postal code">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-control-ckeckBox">
+
+                            <input type="checkbox" name="save" id="save">
+                            <label for="save">Save this information for next
+                                time</label>
+
+                        </div>
+                        <div class="form-control btn-right">
+                            <a class="btn" href="#">Continue</a>
+
+                        </div>
+                    </form>
+                </div>
+
+            </section>
+            <section class="right card">
+                <div class="flex">
+                    <div class="top">
+                        <img src="./photo1.png" alt="">
+                        <div class="top-right">
+                            <div class="">
+                                <p>Vintage Backbag</p>
+                                <p>$54.99 <span>$94.99</span> </p>
+                            </div>
+                            <div class="input-counter">
+                                <span class="minus">-</span>
+                                <span>1</span>
+                                <span class="plus">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <img src="./photo2.png" alt="">
+                        <div class="top-right">
+                            <div class="">
+                                <p>Levi Shoes</p>
+                                <p>$74.99 <span>$124.99</span> </p>
+                            </div>
+                            <div class="input-counter">
+                                <span class="minus">-</span>
+                                <span>1</span>
+                                <span class="plus">+</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom-2">
+                        <div class="">
+                            <p>Shipping</p>
+                            <p>$19</p>
+                        </div>
+                        <div class="">
+                            <p>Total</p>
+                            <p>$148.98</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+
+
+</body>
+
+</html>
